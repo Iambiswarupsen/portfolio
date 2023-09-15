@@ -1,0 +1,322 @@
+
+
+body {
+    background-color:#232323;
+    overflow-x: hidden;
+    
+    }
+    *{
+        margin: 0;
+
+    }
+.header {
+    width: 100%;
+    height: 58px;
+    background-color: #181818;
+    position: absolute;
+    border: none;
+    border-bottom: 0.5px solid rgb(76, 76, 76);
+    border-right: 0.5px solid rgb(76, 76, 76);
+
+}
+
+
+.logo_text {
+    position: absolute;
+    color: #CBCBCB;
+    font-family: sans-serif;
+    font-weight: 120;
+    font-size: medium;
+    margin-left: 45%;
+    margin-top: 10px;
+    
+}
+
+.logo_holder {
+    background-color: #232323;
+    position: relative;
+    margin-bottom: 7px;
+    margin-top: 9px;
+    width: 350px;
+    height: 38px;
+    border-radius: 10px;
+    margin-left: 50%;
+    transform: translateX(-50%); /* Center horizontally */
+    border: 0.5px solid rgb(75, 75, 75);
+
+    
+}
+
+.logo_img{
+    
+    height: 25px;
+    display: inline-block;
+    position: absolute;
+    margin-left: 125px;
+    margin-top: 6.5px;
+    animation: rotation 8s infinite linear;
+}
+
+@keyframes rotation {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg); /* Use 360deg instead of 359deg for a full rotation */
+    }
+}
+.card1{
+    position: absolute;
+    height:900px;
+    width: 75px;
+    background-color:#181818;
+    margin-top: 58.5px;
+    border-right: 0.5px solid rgb(76, 76, 76);
+    border-bottom:  0.5px solid rgb(76, 76, 76);
+
+}
+.file_logo{
+    margin-left: 12px;
+    margin-top: 25px;
+    height: 55px;
+    transition: opacity 0.2s ease-in-out, filter 0.5s ease-in-out;
+    
+}
+.file_logo:hover{
+    opacity: 0;
+}
+.search_logo{
+    margin-left: 11px;
+    margin-top: 32px; 
+    height: 45px;
+    transition: opacity 0.2s ease-in-out, filter 0.5s ease-in-out;  
+
+}
+.search_logo:hover{
+    opacity: 0;
+}
+.setting_logo{
+    height: 43px;
+    margin-left: 9.5px;
+    margin-top: 320px;
+    transition: opacity 0.2s ease-in-out, filter 0.5s ease-in-out;   
+}
+.setting_logo:hover{
+    opacity: 0;
+}
+
+.github_logo{
+    height: 41px;
+    margin-left: 18px;
+    margin-top: 32px;   
+    opacity: 0.8;
+    transition: opacity 0.1s ease-in-out, filter 0.3s ease-in-out;
+}
+.github_logo:hover{
+    opacity: 1;
+    filter: brightness(1.5);
+}
+.linkedin_logo{
+    height: 40px;
+    margin-left: 19px;
+    margin-top: 34px;   
+    opacity: 0.8;
+    transition: opacity 0.1s ease-in-out, filter 0.3s ease-in-out;
+
+}
+.linkedin_logo:hover{
+    opacity: 1;
+    filter: brightness(1.5);
+
+}
+
+.gmail_logo{
+    height: 30px;
+    margin-left: 19px;
+    margin-top: 34px;   
+    opacity: 0.7;
+    transition: opacity 0.1s ease-in-out, filter 0.3s ease-in-out;
+
+}
+.gmail_logo:hover{
+    opacity: 1;
+    filter: brightness(1.5);
+
+}
+.card2{
+    position: absolute;
+    height: 900px;
+    width: 250px;
+    background-color:#181818;
+    margin-top: 58.5px;
+    margin-left: 75.5px;
+    border-right: 0.5px solid rgb(76, 76, 76);
+    border-bottom:  0.5px solid rgb(76, 76, 76);
+
+}
+.projects_text{
+    color: #CBCBCB;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    font-size: 1.3rem;
+    margin: 22px 15px;
+    padding: 0px;
+}
+.dropdown_logo{
+    color: #3ca9d1;
+    font-size: 38px;
+    margin-top: 0px;
+    margin-left: 30px;
+
+}
+.card2_container{
+    display:flex;
+}
+.card3{
+    height: 58px;
+    width: 200px;
+    background-color:#232323;
+    position: absolute;
+    margin-top: 58.5px;
+    margin-left: 326px;
+    border-left: 0.5px solid rgb(76, 76, 76);
+    border-right: 0.5px solid rgb(76, 76, 76);
+    border-top: 2px solid #49a1ff;
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.12); 
+
+}
+.index_text{
+    color: #CBCBCB;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 19px;
+    margin-top: 17px;
+    
+}
+.mine{
+    position: absolute;
+    margin-left: 500px;
+    margin-top: 0px;
+}
+.card4{
+    height: 60px;
+    width: 100%;
+    background-color:#181818;
+    position: absolute;
+    margin-top: 58px;
+    margin-left: 526px;
+    border-left: 0.5px solid rgb(76, 76, 76);
+    border-right: 0.5px solid rgb(76, 76, 76);
+    border-top: 0.5px solid rgb(76, 76, 76);
+    border-bottom: 0.5px solid rgb(76, 76, 76);
+}
+.card5{
+    position: absolute;
+    height: 837px;
+    width: 100%;
+    background-color: #232323;
+    margin-left: 326.5px;
+    margin-top: 122px;
+    border-bottom:  0.5px solid rgb(76, 76, 76);
+    border-right: 0.5px solid rgb(76, 76, 76);
+
+
+}
+
+.name_text{
+    color: #CBCBCB;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 50px;
+    margin-left : 80px;
+    font-size: 2.5rem;
+}
+div.shaking-text {
+    color: rgb(191, 121, 93);
+    font-size: 33px;
+    animation:float 1s infinite linear alternate;
+    margin-top:10px;
+    font-size: 3rem;
+}
+
+@keyframes float {
+    0% {
+        transform: translateX(-6px);
+    }
+    100% {
+        transform: translateX(6px);
+    }
+}
+.intro_text{
+    color: #CBCBCB;
+    font-family: 'Inter', sans-serif;
+    margin-left: 80px;
+    margin-top: 30px;
+}
+.tech_stacks{
+    color: #CBCBCB;
+    font-family: 'Inter', sans-serif;
+    margin-left: 80px;
+    margin-top: 30px;
+}
+
+.python_logo{
+    height: 51px;
+    position: absolute;
+    margin-top: 30px;
+    margin-left: 80px;
+}
+.html_logo{
+    height: 55px;
+    position: absolute;
+    margin-top: 28px;
+    margin-left: 140px;
+}
+.css_logo{
+    height: 46px;
+    position: absolute;
+    margin-left: 205px;
+    margin-top: 34px;
+}
+.js_logo{
+    height: 43.5px;
+    position: absolute;
+    margin-left: 270px;
+    margin-top: 34px;
+    border-radius: 10px;
+}
+.react_logo{
+    height: 51px;
+    position: absolute;
+    margin-left: 333px;
+    margin-top: 33px;
+    animation: rotation 8s infinite linear;
+}
+.node_logo{
+    height: 47.5px;
+    position: absolute;
+    margin-left: 398px;
+    margin-top: 33px;
+}
+.tech_p{
+    margin-top: 100px;
+    margin-left: 80px;
+    font-family: 'Inter', sans-serif;
+}
+.number_text{
+    font-family:'Inter', sans-serif;
+    font-stretch: semi-expanded;
+    color: rgb(157, 101, 79);
+    font-size: 15.5px;
+    margin-left: 10px;
+    text-align: right;
+    
+   
+}
+.numbers{
+    height: 550px;
+    width: 40px;
+    background-color: #232323;
+    position: absolute;
+    margin-top: 32px;
+    margin-left: 10px;
+}
